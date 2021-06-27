@@ -1,0 +1,157 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#title{
+    background-color: #007580;
+}
+
+.contfl{
+    padding: 2% 8% 6% 14%;
+}
+h1{
+font-family: 'Redressed', cursive;
+color: #fed049;
+
+}
+
+h2{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 10rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: ;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* navigation bar */
+
+
+
+.navbar-brand, .nav-link{
+    font-family: 'Asap Condensed', sans-serif;
+     }
+
+     .nav-item{
+         padding: 0 18px;
+     }
+
+     .nav-link{
+        
+     }
+
+     .nav-bar{
+         padding: 0 0 4rem;
+     }
+/* some things are added using z index in css and position to make the image 
+go back of the background remmeber image and not gif cause gif was moving 
+along the scroll down menu */
+
+     .titleimg{
+         transform: rotate(25deg);
+         position: relative;
+         left: 20%;
+        
+        
+     }
+/* features section*/
+#features{
+    padding: 9% 11%;
+    background-color: #fff;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #007580;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #282846;
+}
+
+/* testimonial section */
+#testimonial{
+    
+     text-align: center;
+     background-color: #282846;
+     color: #fff;
+     font-size: 
+}
+
+.carousel-item{
+  padding: 9% 11%;
+}
+
+.testimonial-image{
+    width: 8%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* pricing section */
+a:link{
+    text-decoration: none;
+    
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 2% 3%;
+}
+
+
+/* media query breakpoints, viewport size of 1028 or lesser will have these features */
+@media (max-width: 900px){ 
+        text-align: center;
+    
+    .titleimg{
+        position: static;
+        transform: rotate(0);
+        margin-top: 5%;
+    }
+}
+
+/* cta section */
+#cta{
+    background-color: #007580;
+    padding: 7% 15%;
+     font-family: 'Asap Condensed', sans-serif;
+     text-align: center;
+}
+
+.ok{
+    color: #fed049;
+}
+
+.color{
+    color:#fff;
+    font-size: 3rem;
+    
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social{
+    margin: 20px 10px;
+}
